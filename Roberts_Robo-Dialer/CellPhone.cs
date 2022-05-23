@@ -18,7 +18,7 @@ namespace Roberts_Robo_Dialer
         {
 
 
-            return base.GetName() + " is being dialed using number:  1-" + base.GetNumber(); 
+            return GetName() + " is being dialed using number:  1-" + GetNumber(); 
         }
         
        
